@@ -1,6 +1,6 @@
-# [Nombre del emprendimiento] — Sitio web
+# Elysa — Sitio web
 
-[Descripción del emprendimiento en una o dos líneas.]
+Emprendimiento de bienestar integral y terapias holísticas enfocado en ofrecer servicios de sanación energética y equilibrio emocional.
 Incluye landing, blog y prototipo de tienda online.
 
 > Proyecto de la **Evaluación Parcial 02 — Sitios Web y Landing Pages (DUOC)**.
