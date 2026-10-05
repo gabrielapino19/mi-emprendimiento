@@ -35,4 +35,5 @@ Incluye landing, blog y prototipo de tienda online.
 
 ## Uso de IA
 
-- **[Herramienta]:** para qué la usé y qué ajusté yo.
+- **Antigravity IDE (Gemini):** Utilizada para estructurar y redactar los requerimientos de la Fase 1 (proto-persona, objetivos, matriz de funcionalidades, stack técnico, arquitectura y user flows), personalizándolos según la propuesta de valor de Elysa.
+- **Generación de imágenes por IA:** Utilizada para crear el avatar referencial de Valentina Morales ([docs/img/valentina.jpg](docs/img/valentina.jpg)), adaptándolo al perfil, edad y estética de bienestar del proyecto.
