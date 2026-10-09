@@ -2,14 +2,14 @@
 
 > Guía: [Moodboard](../evaluacion/guias/fase-2-specs/02-moodboard.md)
 
-**Tablero en Whimsical:** [Pega aquí el enlace público de tu tablero en Whimsical]
+**Tablero en Whimsical:** https://whimsical.com/gabriela83/pagina-elysa-6SnDMzHbE2vbDd7AAZhiQv
 
 ![Moodboard de Elysa](img/moodboard.PNG)
 
 ## Palabras clave
 
-Calma · Sanación · Equilibrio · Calidez · Conexión espiritual
+Calma · Sanación · Equilibrio · Calidez · Claridad
 
 ## Qué sensación buscamos
 
-Buscamos que la interfaz de Elysa se perciba como un refugio de paz, autocuidado y bienestar integral: tonos tierra y olivas botánicos, luz cálida envolvente y la presencia sutil de elementos terapéuticos reales (cuarzos de Tameana, péndulo amatista, esencias de Bach y cartas de Tarot). Valentina llega a la web al final de su jornada buscando aliviar la sobrecarga mental y el estrés laboral; este ambiente visual limpio, orgánico y transparente le inspira confianza inmediata, serenidad y contención para regalarse un momento de reconexión energética.
+Queremos que Elysa se sienta como un refugio de paz, autocuidado y bienestar integral: un entorno visual con luz cálida y tonos orgánicos donde convivan armónicamente las texturas de la tierra y los elementos terapéuticos reales (cuarzos de Tameana, péndulo amatista, esencias de Flores de Bach y cartas de Tarot). Valentina Morales navega en el sitio por las noches tras jornadas laborales extenuantes; este estilo sereno, limpio y acogedor le transmite seguridad, contención emocional y la tranquilidad de que equilibrar su energía y relajar su mente es un proceso cercano, transparente y reparador.
