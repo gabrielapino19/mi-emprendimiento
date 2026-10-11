@@ -7,10 +7,12 @@ description: Design system para Elysa, terapias holísticas y bienestar integral
 colors:
   primary: "#445B3C"
   primary-hover: "#35472F"
+  primary-soft: "#A5B19A"
   on-primary: "#FFFFFF"
   secondary: "#E6D7C3"
   on-secondary: "#2C3E35"
   tertiary: "#C88A65"
+  tertiary-soft: "#D5A587"
   tertiary-strong: "#9E5732"
   on-tertiary: "#FFFFFF"
   neutral: "#FAF8F5"
@@ -77,14 +79,24 @@ components:
     typography: "{typography.label-md}"
     rounded: "{rounded.full}"
     padding: 12px 24px
+  button-cta:
+    backgroundColor: "{colors.tertiary-strong}"
+    textColor: "{colors.on-tertiary}"
+    typography: "{typography.label-md}"
+    rounded: "{rounded.full}"
+    padding: 12px 24px
   card-product:
     backgroundColor: "{colors.secondary}"
     textColor: "{colors.on-secondary}"
     rounded: "{rounded.md}"
     padding: "{spacing.md}"
+  badge:
+    backgroundColor: "{colors.primary-soft}"
+    textColor: "{colors.on-surface}"
+    rounded: "{rounded.full}"
   tag-offer:
-    backgroundColor: "{colors.tertiary-strong}"
-    textColor: "{colors.on-tertiary}"
+    backgroundColor: "{colors.tertiary-soft}"
+    textColor: "{colors.on-surface}"
     rounded: "{rounded.full}"
   input-field:
     backgroundColor: "{colors.surface}"
@@ -111,11 +123,13 @@ Elysa es un espacio de bienestar integral y terapias holísticas (Reiki, Tameana
 
 ## Colors
 
-- **Primary (`#445B3C`):** Verde oliva profundo. Se utiliza para botones de acción principal, enlaces destacados, íconos principales y estados activos. Garantiza accesibilidad WCAG AA con texto blanco encima.
+- **Primary (`#445B3C`):** Verde oliva profundo. Se utiliza para botones de acción principal, enlaces destacados, íconos principales y estados activos. Garantiza accesibilidad WCAG AA con texto blanco encima (ratio 6.8:1).
 - **Primary-hover (`#35472F`):** Verde oliva oscuro para feedback visual interactivo al pasar el cursor o presionar botones primarios.
+- **Primary-soft (`#A5B19A`):** Salvia clara. Fondo para insignias y chips de modalidad informativa (ej. "Presencial") con texto carbón (`#2C3E35`), asegurando contraste WCAG AA (ratio 5.1:1).
 - **Secondary (`#E6D7C3`):** Arena suave / lino. Fondo cálido y contenedor para tarjetas de servicios (`card-product`), bloques destacados y banners suaves.
-- **Tertiary (`#C88A65`):** Terracota suave. Acentos visuales, bordes, ilustraciones y detalles cálidos que representan el vínculo humano y la tierra.
-- **Tertiary-strong (`#9E5732`):** Terracota profundo. Fondo exclusivo para etiquetas de oferta o botones CTA directos que requieran texto blanco legible.
+- **Tertiary (`#C88A65`):** Terracota suave. Reservado exclusivamente para iconos cálidos, bordes y detalles decorativos, sin texto encima.
+- **Tertiary-soft (`#D5A587`):** Terracota clara. Fondo para etiquetas e insignias de oferta o sesión destacada (ej. "Sesión destacada") con texto carbón (`#2C3E35`), asegurando contraste WCAG AA (ratio 5.2:1).
+- **Tertiary-strong (`#9E5732`):** Terracota profundo. Fondo exclusivo para botones CTA directos o conversiones que requieran texto blanco legible (ratio 5.2:1).
 - **Neutral (`#FAF8F5`):** Crema suave / lino claro. Fondo principal general de todas las páginas para evitar la fatiga visual del blanco puro.
 - **Surface (`#FFFFFF`):** Blanco puro cálido para fondos de campos de formulario (`input-field`), tarjetas elevadas y modales.
 - **On-surface (`#2C3E35`):** Carbón bosque. Color por defecto para títulos y cuerpo de texto general, asegurando un contraste superior a 10:1 sobre el fondo neutral.
@@ -160,6 +174,10 @@ Botón de llamada a la acción estándar (ej. "Agendar sesión", "Conocer más")
 Botón secundario para acciones alternativas o de menor jerarquía (ej. "Ver detalles", "Volver al catálogo").
 - Fondo `{colors.surface}` con borde sutil en `{colors.primary}`, texto `{colors.primary}`, esquinas `{rounded.full}`.
 
+### Botón CTA (`button-cta`)
+Botón de conversión directa para agendamiento inmediato o compra por WhatsApp.
+- Fondo `{colors.tertiary-strong}`, texto `{colors.on-tertiary}`, tipografía `{typography.label-md}`, esquinas `{rounded.full}` y padding de 12px 24px.
+
 ### Tarjeta de Servicio o Producto (`card-product`)
 Contenedor modular para exhibir cada terapia holística (Reiki, Tameana, Tarot, etc.).
 - Fondo `{colors.secondary}`, texto `{colors.on-secondary}`, esquinas `{rounded.md}`, padding `{spacing.md}`.
@@ -167,9 +185,13 @@ Contenedor modular para exhibir cada terapia holística (Reiki, Tameana, Tarot, 
 - El precio y la modalidad siempre son visibles de forma transparente para evitar la frustración de precios ocultos.
 - Hover: elevación sutil y transición suave de escala del 102% en la imagen.
 
-### Etiqueta de Destacado / Modalidad (`tag-offer`)
-Chip compacto para comunicar ofertas, modalidad a distancia o sesiones recomendadas.
-- Fondo `{colors.tertiary-strong}`, texto `{colors.on-tertiary}`, tipografía compacta y esquinas `{rounded.full}`.
+### Insignia de Modalidad (`badge`)
+Chip compacto para comunicar modalidad de atención (ej. "Presencial", "Online").
+- Fondo `{colors.primary-soft}`, texto `{colors.on-surface}`, tipografía compacta y esquinas `{rounded.full}`. Cumple con ratio WCAG AA (5.1:1).
+
+### Etiqueta de Destacado / Oferta (`tag-offer`)
+Chip compacto para comunicar sesiones destacadas, ofertas o recomendaciones.
+- Fondo `{colors.tertiary-soft}`, texto `{colors.on-surface}`, tipografía compacta y esquinas `{rounded.full}`. Cumple con ratio WCAG AA (5.2:1).
 
 ### Campo de Texto (`input-field`)
 Campo de entrada para formularios de contacto o reservas.
@@ -181,6 +203,6 @@ Campo de entrada para formularios de contacto o reservas.
 - **Do:** Usar el fondo crema suave (`#FAF8F5`) para mantener la calidez y el descanso visual en pantallas.
 - **Do:** Indicar siempre la modalidad (presencial u online) y la duración de cada terapia de forma transparente.
 - **Do:** Mantener bordes redondeados orgánicos para conservar el tono receptivo y empático del espacio.
-- **Don't:** No colocar texto blanco directamente sobre verde salvia (`#7A8B6E`) o terracota suave (`#C88A65`) sin verificar el ratio de contraste mínimo (4.5:1).
+- **Don't:** No colocar texto directamente sobre verde salvia decorativo (`#7A8B6E`) o terracota suave (`#C88A65`) ya que no cumplen ratio mínimo AA (4.5:1); usar siempre `primary-soft` (`#A5B19A`) y `tertiary-soft` (`#D5A587`) con texto carbón (`#2C3E35`) para insignias y etiquetas.
 - **Don't:** No usar fondos negros puros o blancos puros deslumbrantes que rompan la armonía natural.
 - **Don't:** No saturar la interfaz con animaciones ruidosas o textos esotéricos confusos; priorizar claridad, cercanía y serenidad.
